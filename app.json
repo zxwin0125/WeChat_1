@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/movies/movies",
+    "pages/movieDetail/movieDetail",
+    "pages/index/index",
+    "pages/list/list",
+    
+    "pages/detail/detail"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#489B81",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "文与字",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影频道",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
